@@ -11,7 +11,7 @@ steps:
       [
         'run', 'deploy', 'flask-app',
         '--image', 'gcr.io/$PROJECT_ID/flask-app',
-        '--region', 'us-central1',
+        '--region', 'europe-west1',
         '--platform', 'managed',
         '--allow-unauthenticated'
       ]
